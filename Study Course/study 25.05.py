@@ -19,6 +19,7 @@ print("Hi, my name is ", firstname," " ,lastname,", I am " , str(age) , " years 
 t = firstname[0] + firstname[2] + firstname[4]  # выводим строку только с четными элементами строки
 print(t)
 
+
 # добавление значений в начало и конец списка
 data = [1,2,3]
 data.append('4') # в конец
@@ -89,6 +90,8 @@ print (result)
 import pprint
 data = {'firstname':'ivan','lastname':'durovich','age':'32', 'list': [1,2,3],'set':{1,2,3,4}, 'dict':{"one":"1"}}
 
+print(data.keys())  # возвращаем все ключи
+print(data.values())  # возвращаем все значения
 print(data.items()) # возвращаем все пары ключ-значение для словаря в строку
 
 for key, value in data.items(): # возвращаем все пары ключ-значение для словаря в столбик
