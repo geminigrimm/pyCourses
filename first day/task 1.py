@@ -1,10 +1,9 @@
-#в цикле суммировать и пока она <= 1000
-
 i = 0
-result = 1000
+result = 0
 
 while True:
-    if i >= 1001:
+    if i >= 1000:
         break
-    print(i)
+    result += i
     i += 1
+print(result)
